@@ -1,0 +1,78 @@
+/*untuk tablet*/
+@media all and (max-width: 1000px) {
+    
+}
+
+/*untuk smartphone*/
+@media all and (max-width: 670px) {
+    header {
+        height: 60px;
+    }
+
+    .header-right li {
+        margin-right: 5px;
+        font-size: 10px;
+        
+    }
+    .catchphrase h1 {
+        font-size: 25px;
+    }
+
+    .catchphrase h3 {
+        font-size: 15px;
+    }
+
+    .header-right a {
+        padding: 4px 2px;
+    }
+
+
+    #nav {
+        width: 100%;
+    }
+
+    #item-list {
+        width: 50%;
+    }
+
+    .card_content h3 {
+        font-size: 13px;
+    }
+
+    .card_content h4 {
+        font-size: 11px;
+    }
+
+    .card {
+        margin-bottom: 3px;
+        text-align: center;
+        width: 100%;
+    }
+    
+
+    #content_card {
+        padding-left: 20px;
+        padding-right: 20px;
+        display:block;
+        text-align: center;
+        width: 100%;
+        
+    }
+
+
+    .buy {
+        font-size: 15px;
+    }
+
+    #item-list button {
+        border-radius: 5px;
+        width: 60px;
+        height: 20px;
+        border-style: none;
+    }
+
+    footer {
+        text-align: center;
+        width: 100%;
+    }
+}
